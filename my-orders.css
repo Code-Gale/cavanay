@@ -1,0 +1,75 @@
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #292929;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Orders table */
+  table {
+    border-collapse: collapse;
+    margin: 2rem auto;
+    width: 80%;
+  }
+  
+  table th {
+    background-color: #292929;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  table td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Button */
+  .button {
+    background-color: #008CBA;
+    border: none;
+    color: #fff;
+    padding: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #006080;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #292929;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  

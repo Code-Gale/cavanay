@@ -1,0 +1,133 @@
+/* Background */
+body {
+    background-color: #F9F9F9;
+  }
+  
+  /* Header */
+  header {
+    background-color: #232323;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #232323;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content */
+  main {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Artists profile */
+  .artist-profile {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .artist-profile img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .artist-profile-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .artist-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .artist-skills {
+    margin-bottom: 10px;
+  }
+  
+  .artist-bio {
+    margin-bottom: 10px;
+  }
+  
+  .artist-contact {
+    margin-bottom: 10px;
+  }
+  
+  .contact-button {
+    background-color: #232323;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .contact-button:hover {
+    background-color: #444444;
+  }
+  
+  @media (max-width: 768px) {
+    /* Artists profile */
+    .artist-profile {
+      flex-direction: column;
+    }
+  
+    .artist-profile img {
+      margin: 0 auto 20px;
+    }
+  
+    .artist-profile-info {
+      text-align: center;
+    }
+  }
+  
